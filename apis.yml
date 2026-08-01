@@ -1,23 +1,52 @@
 aid: skybox-imaging
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skybox-imaging.png
 name: Skybox Imaging
-description: Skybox Imaging is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Skybox Imaging was a high-resolution Earth-observation smallsat startup
+  founded in 2009 out of Stanford University, building the SkySat constellation of
+  small satellites to capture sub-meter commercial imagery and video. Backed by Canaan
+  Partners among other venture investors, it was acquired by Google in 2014 for roughly
+  $500M, renamed Terra Bella in 2016, and then sold to Planet Labs in 2017. The company
+  no longer exists as an independent entity and publishes no live developer API, docs,
+  or discovery surface; this profile is retained as a portfolio-graph node for
+  canaan-partners.
 url: https://raw.githubusercontent.com/api-evangelist/skybox-imaging/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: defunct
+x-status-reason: acquired-by-google-2014-terra-bella-planet-labs-2017
 x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Satellite Imagery
+- Earth Observation
+- Geospatial
+- Remote Sensing
+- Space
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
