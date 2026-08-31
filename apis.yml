@@ -61,3 +61,9 @@ x-enrichment:
   status: nochange
   artifacts_added: 0
   pass: local-v1
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/google/
+  name: Google
+  x-relationship: acquired
+  x-evidence: "Backed by Canaan Partners among other venture investors, it was acquired by Google in 2014 for roughly $500M, renamed Terra Bella in 2016, and then sold to Planet Labs in 2017."
